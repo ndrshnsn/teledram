@@ -10,7 +10,7 @@ const io = require('socket.io')(http,{
 });
 
 const TelegramBot = require('node-telegram-bot-api');
-const token = '8460124407:AAF8ZRuIKl8V_R2iTMiYu7DgsC2-UV7O9v8';
+const token = '';
 const https = require('https');
 const agent = new https.Agent({ family: 4 });
 
